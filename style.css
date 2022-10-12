@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.btn-reg{
+   border: 2px solid black;
+   border-radius:5px ;
+   padding:5px;
+   margin-left:5px;
+   background-color: #fff;
+   outline: none;
+}
+.btn-signin{
+    border: none;
+  background-color: #0d6efd !important;
+  border-radius:none !important;
+  padding: 5px;
+   margin-left:5px;
+   color: #fff
+}
+.booked-wzsp-prime-data .booked-wzsp-day-val {
+    color:#fff !important; 
+}
+.nav-item a{
+    font-weight: bold !important;
+    color:#fff;
+}
+/* .carousel{
+    height: 100vh;
+}
+.carousel-item{
+    height: 100vh;
+} */
+.carousel-caption {
+    bottom: 50% !important;
+
+}
+.card{
+    box-shadow: 0 0 10px rgba(46, 31, 31, 0.5);
+}
+.category{
+    width: 160px;
+    padding: 5px;
+    background-color: #ece4e4
+}
+.fa{
+    padding: 2px;
+}.card-text{
+    text-align: justify;
+}
+.ticket-rate{
+    color: #f14f32
+}
+.slider{
+    
+    color: #fff;
+    padding-top: 140px;
+    background-size: cover;
+}
+
+.s-one{
+    background-image: url(./assets/waterfall.jpg);
+}
+.s-two{
+    background-image: url(./assets/flowers.jpg);
+}
+.s-three{
+    background-image: url(./assets/eiffel-tower.jpg);
+}
+.s-four{
+    background-image: url(./assets/mountaion.jpg);
+}
+.text-news{
+    padding:10px;
+    background-color: rgb(167, 164, 164);
+}
+.nav-toggle{
+    display:none;
+}
+@media only screen and (max-width:768px){
+    .nav-toggle{
+        display:block;
+    }
+    .nav-image{
+        display:none;
+    }
+}
